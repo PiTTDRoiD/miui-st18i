@@ -1,0 +1,115 @@
+# mixui build 25
+
+# build properties
+ro.build.id=MIUI
+ro.build.display.id=IMM76L
+ro.build.version.incremental=2.6.15
+ro.build.version.sdk=15
+ro.build.version.codename=REL
+ro.build.version.release=4.0.4
+ro.build.date=Tue May 1 16:42:04 EEST 2012
+ro.build.date.utc=1336225324
+ro.build.type=user
+ro.build.user=thetrisatria
+ro.build.host=macosx
+ro.build.tags=test-keys
+ro.product.model=Xperia Ray
+ro.product.brand=SEMC
+ro.product.name=ST18i
+ro.product.device=urushi
+ro.product.board=mogami
+ro.product.cpu.abi=armeabi-v7a
+ro.product.cpu.abi2=armeabi
+ro.product.manufacturer=Sony
+ro.wifi.channels=
+ro.board.platform=msm7x30
+ro.build.product=urushi
+ro.build.description=ST18i-user 4.0.3 4.1.C.0.7 -H9_3w test-keys
+ro.build.fingerprint=SEMC/ST18i_0000-0000/ST18i:4.0.3/4.1.C.0.7/-H9_3w:user/release-keys
+ro.build.characteristics=default
+
+# additional build properties
+ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html
+ro.url.legal.android_privacy=http://www.google.com/intl/%s/mobile/android/basic/privacy.html
+ro.com.google.clientidbase=android-google
+ro.com.google.locationfeatures=1
+ro.product.locale.language=en
+ro.product.locale.region=US
+keyguard.no_require_sim=true
+ro.setupwizard.enterprise_mode=1
+ro.com.android.dateformat=MM-dd-yyyy
+ro.com.android.dataroaming=false
+net.bt.name=Android
+ro.tethering.kb_disconnect=1
+
+# radio and wireless
+rild.libpath=/system/lib/libril-qc-1.so
+rild.libargs=-d/dev/smd0
+ro.ril.hsxpa=2
+ro.ril.gprsclass=10
+ro.ril.disable.power.collapse=0
+ro.ril.fast.dormancy.timeout=3
+ro.ril.enable.sbm.feature=1
+ro.telephony.default_network=0
+ro.telephony.call_ring.multiple=false
+ro.telephony.ril_class=SemcRIL
+ro.use_data_netmgrd=true
+persist.ro.ril.sms_sync_sending=1
+wifi.interface=wlan0
+wifi.supplicant_scan_interval=15
+ro.com.android.wifi-watchlist=GoogleGuest
+ro.ril.def.agps.mode=2
+ro.ril.def.agps.feature=1
+
+# display properties
+ro.sf.lcd_density=240
+ro.opengles.version=131072
+ro.sf.compbypass.enable=1
+debug.performance.tuning=1
+debug.sf.hw=1
+debug.composition.type=dyn
+com.qc.hardware=true
+com.qc.hdmi_out=false
+hwui.render_dirty_regions=false
+hwui.disable_vsync=true
+windowsmgr.max_events_per_sec=200
+dev.pm.dyn_samplingrate=1
+
+# usb mode
+persist.sys.usb.config=mass_storage,adb
+persist.adb.notify=0
+
+# power saving
+pm.sleep_mode=1
+
+# miui properties
+persist.sys.mitalk.enable=true
+ro.config.ringtone=MI.ogg
+ro.config.notification_sound=FadeIn.ogg
+ro.config.alarm_alert=GoodMorning.ogg
+ro.config.sms_received_sound=FadeIn.ogg
+ro.config.sms_delivered_sound=MessageComplete.ogg
+
+# sony mobile properties
+ro.semc.xloud.supported=true
+ro.service.swiqi.supported=true
+persist.service.swiqi.enable=1
+
+# network tweaks
+net.tcp.buffersize.default=6144,87380,1048576,6144,87380,1048576
+net.tcp.buffersize.wifi=87380,1048576,2097152,87380,1048576,2097152
+net.tcp.buffersize.lte=87380,524288,1048576,87380,524288,1048576
+net.tcp.buffersize.hsdpa=6144,87380,1048576,6144,87380,1048576
+net.tcp.buffersize.evdo_b=6144,87380,1048576,6144,87380,1048576
+net.tcp.buffersize.umts=6144,87380,1048576,6144,87380,1048576
+net.tcp.buffersize.gprs=6144,87380,1048576,6144,87380,1048576
+net.tcp.buffersize.edge=6144,87380,524288,6144,16384,262144
+net.tcp.buffersize.hspa=6144,87380,524288,6144,16384,262144
+
+# dalvik
+dalvik.vm.lockprof.threshold=500
+dalvik.vm.dexopt-flags=m=y
+dalvik.vm.heapstartsize=5m
+dalvik.vm.heapgrowthlimit=48m
+dalvik.vm.heapsize=128m
+dalvik.vm.stack-trace-file=/data/anr/traces.txt
