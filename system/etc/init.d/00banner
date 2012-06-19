@@ -1,0 +1,9 @@
+#!/system/bin/sh
+#
+# Print startup info
+#
+L="log -p i -t cm"
+
+$L "assalamu alaikum wr. wb";
+$L "welcome to miui for sony xperia ray";
+
